@@ -1,6 +1,6 @@
 .background {
-  background-color: #eceff4;
-  color: black;
+  background-color: #141619;
+  color: white;
 
   height: fit-content;
   width: 100vw;
@@ -10,6 +10,6 @@
 }
 
 #canvas {
-  box-shadow: 0 0 8px#2b2c2d;
+  box-shadow: 0 0 20px#2b2c2d;
   border-radius: 8px;
 }

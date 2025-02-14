@@ -212,13 +212,13 @@ function main() {
   //canvas starts at high resolution and is only scaled down here, to fit screen
   //this is done because things work weird otherwise
   if (screen.width < 786){
-    canvas.width=640;
-    canvas.height=480;
-    }
-    else			       
-    {
-    canvas.width = 1920;
-    canvas.height = 1080;
+			       canvas.width=640;
+			       canvas.height=480;
+	}
+  else			       
+  {
+    canvas.width = 1024;
+    canvas.height = 786;
   }
 
 
@@ -514,13 +514,13 @@ function main() {
             value="480p"
           />640x480<br />
           <input
+            checked
             type="radio"
             name="resradio"
             onclick="checkres(this.value)"
             value="786p"
           />1024x786<br />
           <input
-            checked
             type="radio"
             name="resradio"
             onclick="checkres(this.value)"
