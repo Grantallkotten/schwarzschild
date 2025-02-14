@@ -1,0 +1,15 @@
+.background {
+  background-color: #141619;
+  color: white;
+
+  height: fit-content;
+  width: 100vw;
+  overflow-x: hidden;
+
+  padding-bottom: 32px;
+}
+
+#canvas {
+  box-shadow: 0 0 20px#2b2c2d;
+  border-radius: 8px;
+}
